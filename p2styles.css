@@ -1,0 +1,93 @@
+
+/* This is an external CSS styling sheet for project 2 
+
+#top-container { background-color: brown;clear: both;
+
+}   */
+
+main /* On screens that are 600px wide or less, make the displays stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    #div1 {width: 100%;
+    } 
+}
+     /* on screens that are 600px wide or less for all divs :updated 3/20/21 and working properly */
+@media screen and (max-width: 600px) {
+    #div1, #div2, #div3, #div4, #div5, #div6 {
+    width: 100%;}
+
+}
+
+@media screen and (max-width:600px) {
+    .second {background-color: #45567D;}
+}
+
+#main-nav :hover{background-color: royalblue;}
+
+   
+#main-nav
+    {text-align: right; text-decoration: none;padding-right: 3%;padding-top: 15px;
+        background-color: #BE3144; height: 60px;
+
+}
+
+#main-heading {padding-top: 10px;
+    width: 100%; position: fixed;
+    letter-spacing: 2px; word-spacing: 5px;}
+
+.white {color:#f0f0f0; font-size: 30px;
+} /* span in nav -for some reason i can't get the text to be white. 
+3/20/2021: finaly was able to make the text white through using a class */
+
+#about {padding-top: 300px;
+    background-color:#28292B; text-align:center; clear: both; height: 400px;
+
+}
+#Work {padding-top: 50px;
+    background-color:#45567D; height: 850px;
+}
+
+#hey {color: white; font-size:60px; /* span*/
+}
+
+#new {size: 15pt; color:#B63042; font-size: 30px;} /* span*/
+
+#projects {color:#f0f0f0;padding-top: 40px;
+    background-color: #45567D; text-align: center; clear: both; font-size: 40px;
+}
+
+
+/* {background-color:lightskyblue; border-color: black;border: 10px 10px 15px 15px;}
+*/
+
+.first {float: left; width: 32%; border-color: black; border-style: solid;
+text-align: center;}
+
+.second {float: left; width: 32%; border-color: black; border-style: solid;
+text-align: center;}
+
+#show :hover {background-color: red;}
+
+#show {text-align: center; font-size:30px;
+    }
+
+    /* #div3 {border-style: solid;border-color: black; width: 20%;float: right;}
+
+
+
+
+
+body {background-color: slategrey; text-decoration-color: snow;
+
+}
+#about {border: thick; border: solid 20px; border: yellowgreen;} */
+
+#contact {padding-top: 100px;
+    color: white; background-color:#303841; text-align: center; font-size: larger; height: 500px;}
+
+#lets {font-size: 60px;}
+
+#links :hover {background-color: ghostwhite;
+}
+.link {padding: 20px;}
+
+/* project was completed with some additional details added by me. date: 3/20/21.
